@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+
+<title>Micheal Portfolio</title>
+
+<style>
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: cyan;
+    font-size: 40px;
+}
+
+h2 {
+    color: gray;
+}
+
+h3 {
+    color: orange;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #222;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: cyan;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<h1>Hi, I am Micheal</h1>
+
+<h2>Frontend Developer</h2>
+
+
+<h3>About Me</h3>
+
+<p>
+I am a B.Tech IT student.
+I am learning Web Development.
+</p>
+
+
+<h3>My Skills</h3>
+
+<ul>
+    <li>Java</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+
+<h3>Education</h3>
+
+<p>B.Tech Information Technology</p>
+
+
+<h3>Contact Me</h3>
+
+<p>Email: yourmail@gmail.com</p>
+
+
+<button onclick="changeTheme()">
+Change Theme
+</button>
+
+
+<script>
+
+/* Function for button click */
+function changeTheme() {
+
+    document.body.classList.toggle("light");
+
+}
+
+</script>
+
+
+</body>
+
+</html>
